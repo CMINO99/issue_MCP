@@ -1,0 +1,12 @@
+[project]
+name = "issue-mcp"
+version = "0.1.0"
+description = "MCP server for creating GitHub issues"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "mcp[cli]",
+    "httpx",
+    "python-dotenv",
+]
